@@ -1,0 +1,119 @@
+.pink {
+	background-color: pink;
+}
+
+#contact {
+	height: 550px;
+	overflow-y: scroll;
+}
+
+#contact>div {
+	border: 1px solid pink;
+}
+
+#contact>div>p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#right {
+	height: 650px;
+}
+
+textarea {
+	height: 90px;
+	max-height: 90px;
+	width: 600px;
+	max-width: 600px;
+}
+
+#message {
+	height: 550px;
+	overflow-y: scroll;
+}
+
+#form {
+	margin-top: 20px;
+	height: 100px;
+}
+
+.expe {
+	background-color: #FFEFF2;
+	float: right;
+	width: 450px;
+	border-radius: 5px;
+	border: 1px solid pink;
+}
+.expe *{
+	max-width: 400px;
+}
+.expe>p:first-of-type{
+	float: right;
+	margin-top: 0px;
+	margin-right: 25px;
+	margin-bottom: 0px;
+	max-width: 400px;
+}
+
+.expe>p:first-of-type+p {
+	clear: both;
+	float: right;
+	margin-top: 0px;
+	margin-right: 25px;
+	margin-bottom: 0px;
+	max-width: 400px;
+}
+
+.expe>p:first-of-type+p+p {
+	clear: both;
+	float: left;
+	margin-left: 25px;
+	width: 400px;
+	word-break: keep-all;
+	word-wrap: break-word;
+}
+
+.desti {
+	background-color: #FFEFF2;
+	float: left;
+	width: 450px;
+	border: 1px solid hotpink;
+	border-radius: 5px;
+}
+.desti *{
+	max-width: 400px;
+}
+.desti>p:first-of-type{
+	float: left;
+	margin-top: 0px;
+	margin-left: 25px;
+	margin-bottom: 0px;
+	max-width: 400px;
+}
+.desti>p:first-of-type+p {
+	clear: both;
+	float: left;
+	margin-top: 0px;
+	margin-left: 25px;
+	margin-bottom: 0px;
+}
+
+.desti>p:first-of-type+p+p {
+	clear: both;
+	float: left;
+	margin-left: 25px;
+	word-break: keep-all;
+	word-wrap: break-word;
+}
+
+#Formulaire {
+	height: 250px;
+}
+
+.hotPink {
+	background-color: hotpink;
+}
+
+.palPink {
+	background-color: #FFE3E8;
+}
